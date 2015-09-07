@@ -1,7 +1,5 @@
 
 
-***Some of the features of "Monitoring Tool" are not available with remote monitoring. On the help file available below, if the name of a command is black, the command is available for all types of connection (local, WMI and server). If it's green, it's available for both local and remote via server. If it's blue it's only available for a local machine.***
-
  
 Main menu
 
@@ -194,7 +192,7 @@ Note that the actions available depends from the version of "Monitoring Tool" yo
 The shortcuts will only be active when "Monitoring Tool" is running.
 Note that the shortcuts only affect the local machine.
 
-Find Window' Process
+Find Window Process
 
 This feature allows to find the process associated to a window displayed on the screen. Once you have open the 'Find Window' process' window (Menu -> "target icon"), click on the window and drag your mouse over the screen. Select the desired window and release the left button of your mouse, it will select the process associated to the window.
 
@@ -257,7 +255,7 @@ This feature allows to view dependencies of an executable/*.dll/*.sys. If the De
 
 Once your file is opened, you will see the import/export tables and all informations available in a classical Dependency viewer.
 
-System Snapshot Feature
+*System Snapshot Feature*
 
 This feature is designed for remote assistance (for example on an Internet forum). Here is how you should use it :
 
@@ -271,9 +269,9 @@ first step is to connect "Monitoring Tool" to the System Snapshot File (using Ch
 then it is possible to analyze the system as if the user is running "Monitoring Tool" to analyze a local machine, and it's easy to determine what is the problem of the system
 It is also possible to explore a System Snapshot File to see which data are stored in it by using the Explore System Snapshot File menu.
 
-Using the command line
+# Using the command line
 
-Here are the different arguments which can be used in command line to start "Monitoring Tool" :
+*Here are the different arguments which can be used in command line to start "Monitoring Tool" :*
 
 To start "Monitoring Tool" as a server :
 -server [-hide] -port PORT_NUMBER
@@ -288,10 +286,12 @@ Other features & tips
 
 Here are some other features and tips you should know when using "Monitoring Tool" :
 
-You should read the tooltips when you move your mouse over a control, there are some useful informations.
+*You should read the tooltips when you move your mouse over a control, there are some useful informations.
 'Escape' key should close opened forms.
 Middle-mouse-click on a listview should copy the informations displayed for the selected items into the clipboard. 'Right-click -> Menu Copy to clipboard' allows to copy some specific informations to the clipboard.
 Ctrl+Shift keys on an item on a listview will display the pending tasks concerning the item.
 Double-click on an item on a listview (or F7 key) will display the list of properties about the item.
-Ctrl+F keys on a listview on the process detailed view will display a useful search panel on the bottom of the window.
+Ctrl+F keys on a listview on the process detailed view will display a useful search panel on the bottom of the window.*
+
+***Some of the features of "Monitoring Tool" are not available with remote monitoring. On the help file available above, if the name of a command is black, the command is available for all types of connection (local, WMI and server). If it's green, it's available for both local and remote via server. If it's blue it's only available for a local machine.***
  
