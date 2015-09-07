@@ -1,40 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
 <html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Monitoring_tool : consists of many open source projects and provides very detailed information. By using this tool you can control every little process and its components. However it must be noted that if you run this application with Admin rights then you are going to do some irreversible changes so use it very carefully.">
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/github-dark.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <title>Monitoring Tool</title>
+  <meta name="description" content="This app provides provides very detailed information using WMI of the system, It gives performance of process &amp; service and provides very depth control over it. However it must be noted that if you run this application with Admin rights then you are going to do some irreversible changes so use it very carefully !">
 
-    <title>Monitoring_tool</title>
-  </head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <body>
+</head>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Santosh-Sah/Monitoring_Tool">View on GitHub</a>
+<body>
 
-          <h1 id="project_title">Monitoring_tool</h1>
-          <h2 id="project_tagline">consists of many open source projects and provides very detailed information. By using this tool you can control every little process and its components. However it must be noted that if you run this application with Admin rights then you are going to do some irreversible changes so use it very carefully.</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/Santosh-Sah/Monitoring_Tool/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/Santosh-Sah/Monitoring_Tool/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>Some of the features of "Monitoring Tool" are not available with remote monitoring. On the help file available below, if the name of a command is black, the command is available for all types of connection (local, WMI and server). If it's green, it's available for both local and remote via server. If it's blue it's only available for a local machine.</p>
-
-<h3>
-<a id="main-menu" class="anchor" href="#main-menu" aria-hidden="true"><span class="octicon octicon-link"></span></a>Main menu</h3>
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Monitoring Tool</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">This app provides provides very detailed information using WMI of the system, It gives performance of process &amp; service and provides very depth control over it. However it must be noted that if you run this application with Admin rights then you are going to do some irreversible changes so use it very carefully !</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/Santosh-Sah/Monitoring_Tool/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/Santosh-Sah/Monitoring_Tool/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/Santosh-Sah/Monitoring_Tool" class="code">View Monitoring Tool on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>
+<a id="help-section" class="anchor" href="#help-section" aria-hidden="true"><span class="octicon octicon-link"></span></a>Help Section</h1>
 
 <p>Here are the features available in the main menu (click on the Orb) or when you click on the small icons on the ribbon, near the Orb :</p>
 
@@ -70,8 +73,7 @@ Select associated process : selects the owner process in the 'Processes' tab.
 Select in "window tab" : selects the window in the process' detailed window.
 Double click on a task will select the associated process.</p>
 
-<h3>
-<a id="processes" class="anchor" href="#processes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Processes</h3>
+<p>Processes</p>
 
 <p>These features are available in the 'Processes' tab of the main form. Use the icons on the ribbon, or use the popup menu (right-click on the listview). All actions are available for all the different processes you select in the list. Depending of the type of connection "Monitoring Tool" uses (local, WMI...), some actions are disabled.</p>
 
@@ -94,8 +96,7 @@ Internet search : searches for the executable name on the Internet.
 View dependencies : opens the Dependency viewer to see dependencies of the selected process.
 Double-click on a process to open a detailed view of the process. See Detailed view for process.</p>
 
-<h3>
-<a id="jobs" class="anchor" href="#jobs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Jobs</h3>
+<p>Jobs</p>
 
 <p>These features are available in the 'Jobs' tab of the main form. Use the icons on the ribbon, or use the popup menu (right-click on the listview). All actions are available for the different jobs you select in the list. Note that job management feature is only available if user have the admin rights.</p>
 
@@ -103,8 +104,7 @@ Double-click on a process to open a detailed view of the process. See Detailed v
 Restart with privileges : if "Monitoring Tool" is running on Vista or above and UAC is enabled, this button will cause "Monitoring Tool" to restart with full privileges. This will require an administrator account. This command is only available if the job management feature is not available to the user.
 Double-click on a job to open a detailed view of the job. See Detailed view for job.</p>
 
-<h3>
-<a id="monitor" class="anchor" href="#monitor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Monitor</h3>
+<p>Monitor</p>
 
 <p>These features are available in the 'Monitor' tab of the main form. Use the icons on the ribbon, or use the popup menu (right-click on the treeview). This feature allows to use the "performance counters" of Windows available on the system (local system if connection type is local, or remote system if connection type is remote via WMI). Here are the available actions :</p>
 
@@ -164,8 +164,7 @@ Search</p>
 
 <p>You can close an item (i.e. terminate process for processes, unload module for modules, close handle for handles...) with 'Close item' menu.</p>
 
-<h3>
-<a id="remote-management" class="anchor" href="#remote-management" aria-hidden="true"><span class="octicon octicon-link"></span></a>Remote management</h3>
+<p>Remote management</p>
 
 <p>Change connection type</p>
 
@@ -229,7 +228,7 @@ Emergency hotkeys</p>
 <p>The shortcuts will only be active when "Monitoring Tool" is running.
 Note that the shortcuts only affect the local machine.</p>
 
-<p>Find Window' Process</p>
+<p>Find Window Process</p>
 
 <p>This feature allows to find the process associated to a window displayed on the screen. Once you have open the 'Find Window' process' window (Menu -&gt; "target icon"), click on the window and drag your mouse over the screen. Select the desired window and release the left button of your mouse, it will select the process associated to the window.</p>
 
@@ -292,7 +291,7 @@ Dependency viewer</p>
 
 <p>Once your file is opened, you will see the import/export tables and all informations available in a classical Dependency viewer.</p>
 
-<p>System Snapshot Feature</p>
+<p><em>System Snapshot Feature</em></p>
 
 <p>This feature is designed for remote assistance (for example on an Internet forum). Here is how you should use it :</p>
 
@@ -306,10 +305,10 @@ first step is to connect "Monitoring Tool" to the System Snapshot File (using Ch
 then it is possible to analyze the system as if the user is running "Monitoring Tool" to analyze a local machine, and it's easy to determine what is the problem of the system
 It is also possible to explore a System Snapshot File to see which data are stored in it by using the Explore System Snapshot File menu.</p>
 
-<h3>
-<a id="using-the-command-line" class="anchor" href="#using-the-command-line" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using the command line</h3>
+<h1>
+<a id="using-the-command-line" class="anchor" href="#using-the-command-line" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using the command line</h1>
 
-<p>Here are the different arguments which can be used in command line to start "Monitoring Tool" :</p>
+<p><em>Here are the different arguments which can be used in command line to start "Monitoring Tool" :</em></p>
 
 <p>To start "Monitoring Tool" as a server :
 -server [-hide] -port PORT_NUMBER
@@ -324,24 +323,34 @@ Other features &amp; tips</p>
 
 <p>Here are some other features and tips you should know when using "Monitoring Tool" :</p>
 
-<p>You should read the tooltips when you move your mouse over a control, there are some useful informations.
+<p><em>You should read the tooltips when you move your mouse over a control, there are some useful informations.
 'Escape' key should close opened forms.
 Middle-mouse-click on a listview should copy the informations displayed for the selected items into the clipboard. 'Right-click -&gt; Menu Copy to clipboard' allows to copy some specific informations to the clipboard.
 Ctrl+Shift keys on an item on a listview will display the pending tasks concerning the item.
 Double-click on an item on a listview (or F7 key) will display the list of properties about the item.
-Ctrl+F keys on a listview on the process detailed view will display a useful search panel on the bottom of the window.</p>
-      </section>
+Ctrl+F keys on a listview on the process detailed view will display a useful search panel on the bottom of the window.</em></p>
+
+<p><strong><em>Some of the features of "Monitoring Tool" are not available with remote monitoring. On the help file available above, if the name of a command is black, the command is available for all types of connection (local, WMI and server). If it's green, it's available for both local and remote via server. If it's blue it's only available for a local machine.</em></strong></p>
+        </article>
+      </div>
     </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/Santosh-Sah" class="avatar"><img src="https://avatars3.githubusercontent.com/u/9120889?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/Santosh-Sah">Santosh-Sah</a> maintains <a href="https://github.com/Santosh-Sah/Monitoring_Tool">Monitoring Tool</a></p>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Monitoring_tool maintained by <a href="https://github.com/Santosh-Sah">Santosh-Sah</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
 
-    
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/Santosh-Sah/Monitoring_Tool/tarball/master" class="tar">tar</a><a href="https://github.com/Santosh-Sah/Monitoring_Tool/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
 
-  </body>
+  
+</body>
 </html>
