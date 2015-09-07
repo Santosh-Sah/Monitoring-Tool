@@ -1,6 +1,6 @@
 
 
-Some of the features of "Monitoring Tool" are not available with remote monitoring. On the help file available below, if the name of a command is black, the command is available for all types of connection (local, WMI and server). If it's green, it's available for both local and remote via server. If it's blue it's only available for a local machine.
+**Note :Some of the features of "Monitoring Tool" are not available with remote monitoring. On the help file available below, if the name of a command is black, the command is available for all types of connection (local, WMI and server). If it's green, it's available for both local and remote via server. If it's blue it's only available for a local machine.
 
  
 Main menu
