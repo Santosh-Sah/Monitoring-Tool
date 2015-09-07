@@ -1,7 +1,6 @@
 
 
- 
-Main menu
+*Help Section*
 
 Here are the features available in the main menu (click on the Orb) or when you click on the small icons on the ribbon, near the Orb :
 
